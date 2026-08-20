@@ -20,20 +20,20 @@
 
 
 
-#include<iostream>
-#include<string.h>
-using namespace std;
+// #include<iostream>
+// #include<string.h>
+// using namespace std;
 
-int main(){
-    char str[100];
-    int length = 0;
+// int main(){
+//     char str[100];
+//     int length = 0;
 
-    cout << "enter a string:";
-    cin >> str;
+//     cout << "enter a string:";
+//     cin >> str;
 
-    while(str[length] != '\0') {
-        length++;
-    }
+//     while(str[length] != '\0') {
+//         length++;
+//     }
 
-    cout << "length of string=" << length;
-}1`
+//     cout << "length of string=" << length;
+// }1`

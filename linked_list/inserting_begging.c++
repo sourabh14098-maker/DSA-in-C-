@@ -125,3 +125,81 @@
 
 //     return 0;
 // }
+
+
+
+// 1. Create Nodes in SLL and Display
+
+// #include <iostream>
+// using namespace std;
+
+// struct Node {
+//     int data;
+//     Node* next;
+// };
+
+// int main() {
+//     Node *head, *second, *third;
+
+//     head = new Node();
+//     second = new Node();
+//     third = new Node();
+
+//     head->data = 10;
+//     head->next = second;
+
+//     second->data = 20;
+//     second->next = third;
+
+//     third->data = 30;
+//     third->next = NULL;
+
+//     Node* temp = head;
+
+//     while(temp != NULL) {
+//         cout << temp->data << " ";
+//         temp = temp->next;
+//     }
+
+//     return 0;
+// }
+
+
+// 4. Count Number of Nodes in SLL
+
+// #include <iostream>
+// using namespace std;
+
+// struct Node {
+//     int data;
+//     Node* next;
+// };
+
+// int main() {
+//     Node *head, *second, *third;
+
+//     head = new Node();
+//     second = new Node();
+//     third = new Node();
+
+//     head->data = 10;
+//     head->next = second;
+
+//     second->data = 20;
+//     second->next = third;
+
+//     third->data = 30;
+//     third->next = NULL;
+
+//     int count = 0;
+//     Node* temp = head;
+
+//     while(temp != NULL) {
+//         count++;
+//         temp = temp->next;
+//     }
+
+//     cout << "Number of Nodes = " << count;
+
+//     return 0;
+// }

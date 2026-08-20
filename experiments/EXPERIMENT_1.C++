@@ -3,7 +3,6 @@
 
 // #include <iostream>
 // using namespace std;
-
 // int main() {
 //     int n;
 //     cout << "Enter the number of elements in the array: ";
@@ -28,12 +27,41 @@
 //     return 0;
 // }
 
-// #include<iosream>
+
+
+
+
+// EASY WAY TO FIND THE MAXIMUM AND MINIMUM ELEMENT IN AN ARRAY 
+
+// #include<iostream>
 // using namespace std;
 
-// int main() {
-//     cout <<"enter the number of elements in the array";
-//     cin >> n;
-//     int arr[n];
-//     cout
+// int main()
+// {
+//     int arr[5]={10,25,5,40,15};
+//     int max=arr[0], min=arr[0];
+
+//     for(int i=1;i<5;i++)
+//     {
+//         if(arr[i]>max)
+//             max=arr[i];
+
+//         if(arr[i]<min)
+//             min=arr[i];
+//     }
+
+//     cout<<"Maximum = "<<max<<endl;
+//     cout<<"Minimum = "<<min;
+
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+//     int arr[5]={10,25,5,40,15};
+//     int max=arr[0], min=arr[0];
+
+    
 // }
