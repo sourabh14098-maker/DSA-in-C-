@@ -8,7 +8,7 @@
 //     cout << "Enter number of elements in second array: ";
 //     cin >> n2;
 
-//     if (n1 <= 0 || n2 <= 0) {
+//     if (n1 <= 0 || n2 <= 0) {  
 //         cout << "Invalid number of elements" << endl;
 //         return 1;
 //     }
@@ -34,7 +34,7 @@
 //     }
 
 //     cout << "Merged array: ";
-//     for (int i = 0; i < n1 + n2; i++) {
+//     for (int i = 0; i < n1 + n2; i++) {  
 //         cout << merged[i] << " ";
 //     }
 //     cout << endl;
