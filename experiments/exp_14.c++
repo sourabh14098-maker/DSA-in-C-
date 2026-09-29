@@ -32,3 +32,15 @@ int main()
     return 0;
 }
 
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    Node*head = new Node();
+    head->data = 10;
+    head->next = NULL;
+
+    Node* newNode = new Node();
+    new
+}-
