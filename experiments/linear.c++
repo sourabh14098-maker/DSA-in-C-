@@ -25,3 +25,6 @@ int main() {
 
     return 0;
 }
+
+#include<iostream>
+using nameespace std;
